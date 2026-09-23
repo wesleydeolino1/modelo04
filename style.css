@@ -32,7 +32,7 @@ main {
     flex-direction: column;
     justify-content: center;
     border-radius: 25px;
-    width: 100%;
+    width: calc(100% - 2rem);
     max-width: 500px;
 }
 
