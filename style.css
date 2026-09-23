@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -209,7 +210,7 @@ main {
     overflow-x: auto;
     overflow-y: hidden;
     padding: 0 1rem;
-    
+
 
     & .caixa-preco {
         flex: 0 0 180px;
@@ -224,13 +225,14 @@ main {
         text-shadow: 0 0 8px #FFD166, 0 0 18px rgba(255, 209, 102, 0.6);
         transition: 0.5s ease;
 
-        & p{
+        & p {
             margin-top: 0.5rem;
         }
 
-        & h5{
+        & h5 {
             margin-top: 0.3rem;
             font-size: 1rem;
+        }
     }
 
     & .caixa-preco:hover {
@@ -258,7 +260,7 @@ main {
 }
 
 .vem-fazer-parte {
-    background: linear-gradient(to right,rgba(255, 182, 193, 0.75),rgba(107, 74, 80, 0.65),rgba(65, 45, 80, 0.75));
+    background: linear-gradient(to right, rgba(255, 182, 193, 0.75), rgba(107, 74, 80, 0.65), rgba(65, 45, 80, 0.75));
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -274,11 +276,11 @@ main {
     transition: 0.3s ease;
 }
 
-.vem-fazer-parte:hover{
+.vem-fazer-parte:hover {
     transform: scale(1.03);
 }
 
-.vem-fazer-parte button{
+.vem-fazer-parte button {
     background-color: #f8bbd0;
     padding: 0.5rem;
     border-radius: 15px;
@@ -289,38 +291,39 @@ main {
     cursor: pointer;
     font-family: "Lobster Two", sans-serif;
     transition: 0.5s;
-    }
-.vem-fazer-parte button:hover{
+}
+
+.vem-fazer-parte button:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 5px #c22c51;
 
 }
 
-.img-footer{
+.img-footer {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #f8bbd0;
     gap: 1rem;
     margin-top: 1.5rem;
-    
 
-    & p{
+
+    & p {
         font-family: "Lobster Two", sans-serif;
     }
 }
 
-.icones-footer .icone{
+.icones-footer .icone {
     fill: #f8bbd0;
     transition: 0.3s;
 }
 
-.icones-footer .icone:hover{
+.icones-footer .icone:hover {
     transform: scale(1.06);
 }
