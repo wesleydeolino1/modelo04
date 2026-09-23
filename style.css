@@ -120,6 +120,7 @@ main {
     flex-direction: column;
     width: 100%;
     min-width: 0;
+    padding: 0 1rem;
 
     & h2 {
         color: #ffffff;
@@ -155,7 +156,7 @@ main {
     width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
-    padding: 0 1rem;
+    padding:0;
     min-width: 0;
 }
 
@@ -186,7 +187,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 1rem;
+    padding: 0 1rem;
     width: calc(100% - 2rem);
     min-width: 0;
 
@@ -212,7 +213,7 @@ main {
     min-width: 0;
     overflow-x: auto;
     overflow-y: hidden;
-    padding: 0 1rem;
+    padding:0;
 
 
     & .caixa-preco {
@@ -334,6 +335,10 @@ footer {
     transform: scale(1.06);
 }
 
+.vem-fazer-parte .texto{
+    max-width: 280px;
+}
+
 @media (max-width: 500px) {
 
     footer {
@@ -349,5 +354,10 @@ footer {
         display: flex;
         gap: 0.3rem;
     }
+
+    .vem-fazer-parte {
+    flex-direction: column;
+    text-align: center;
+}
 
 }
