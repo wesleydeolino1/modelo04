@@ -195,10 +195,11 @@ main {
     gap: 1rem;
     margin-top: 1.5rem;
     width: 100%;
+    min-width: 0;
     overflow-x: auto;
     overflow-y: hidden;
     padding: 0 1rem;
-    min-width: 0;
+    
 
     & .caixa-preco {
         flex: 0 0 100px;
