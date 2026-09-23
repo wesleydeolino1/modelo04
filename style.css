@@ -156,7 +156,7 @@ main {
     width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
-    padding:0;
+    padding: 0;
     min-width: 0;
 }
 
@@ -213,7 +213,7 @@ main {
     min-width: 0;
     overflow-x: auto;
     overflow-y: hidden;
-    padding:0;
+    padding: 0;
 
 
     & .caixa-preco {
@@ -278,6 +278,12 @@ main {
     padding: 1rem;
     font-family: "Playfair Display", serif;
     transition: 0.3s ease;
+
+    & p {
+        font-family: "Roboto", sans-serif;
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
 }
 
 .vem-fazer-parte:hover {
@@ -286,7 +292,7 @@ main {
 
 .vem-fazer-parte button {
     background-color: #f8bbd0;
-    padding: 0.5rem;
+    padding: 0.6rem 1rem;
     border-radius: 15px;
     color: #ffffff;
     font-size: large;
@@ -335,7 +341,7 @@ footer {
     transform: scale(1.06);
 }
 
-.vem-fazer-parte .texto{
+.vem-fazer-parte .texto {
     max-width: 280px;
 }
 
@@ -356,8 +362,8 @@ footer {
     }
 
     .vem-fazer-parte {
-    flex-direction: column;
-    text-align: center;
-}
+        flex-direction: column;
+        text-align: center;
+    }
 
 }
