@@ -20,6 +20,7 @@
 }
 
 body {
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,10 +32,11 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     border-radius: 25px;
     width: calc(100% - 2rem);
     max-width: 500px;
+    min-height: 100vh;
 }
 
 .perfil {
