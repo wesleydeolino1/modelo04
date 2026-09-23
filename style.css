@@ -175,6 +175,8 @@ main {
     justify-content: center;
     flex-direction: column;
     margin: 1rem;
+    width: calc(100% - 2rem);
+    min-width: 0;
 
     & h2 {
         color: #ffffff;
