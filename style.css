@@ -89,6 +89,7 @@ main {
     flex-direction: column;
     gap: 1rem;
     width: 100%;
+    padding: 0 1rem;
     margin-top: 1.5rem;
 
     & .btn-link {
@@ -312,10 +313,13 @@ footer {
     color: #f8bbd0;
     gap: 1rem;
     margin-top: 1.5rem;
+    width: 100%;
+    padding: 0 1rem;
 
 
     & p {
         font-family: "Lobster Two", sans-serif;
+        white-space: nowrap;
     }
 }
 
@@ -326,4 +330,22 @@ footer {
 
 .icones-footer .icone:hover {
     transform: scale(1.06);
+}
+
+@media (max-width: 500px) {
+
+    footer {
+        gap: 0.5rem;
+    }
+
+    .img-footer {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icones-footer {
+        display: flex;
+        gap: 0.3rem;
+    }
+
 }
